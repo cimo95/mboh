@@ -10,5 +10,5 @@ a.split('').forEach(function(c) {
   var d = new RegExp(c,"g");
   b = b.replace(d,'i');
 });
-//tampilin hasilnya
+//tampilin hasilnya dalam bentuk prompt supaya mudah dicopy
 prompt("Hasilnya :",b);
